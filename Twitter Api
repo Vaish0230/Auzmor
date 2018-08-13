@@ -1,0 +1,13 @@
+//import package
+var Twit = require('twitter'); 
+//import config
+var config = require('./config') 
+var T = new Twit(config); 
+var params = {
+q: 'vaishnavi',
+count: 10
+} 
+T.get('search/tweets', params,searchedData); 
+function searchedData(err, data, response) {
+console.log(data);
+} 
