@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Thesaurus {
+public class Main {
 
 
 	public String[] edit(String[] e) {
